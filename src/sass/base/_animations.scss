@@ -1,0 +1,34 @@
+@keyframes pulse {
+    from {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    to {transform: scale(1);}
+}
+
+@keyframes spin {
+    from {transform: rotateY(0deg);}
+    // 25% {transform: rotate(-90deg);}
+    // 50% {transform: rotate(-180deg);}
+    // 75% {transform: rotate(-270deg);}
+    to {transform: rotate(-360deg);}
+}
+
+@keyframes swing {
+    15% {
+      transform: translateX(9px);
+    }
+    30% {
+      transform: translateX(-9px);
+    }
+    40% {
+      transform: translateX(6px);
+    }
+    50% {
+      transform: translateX(-6px);
+    }
+    65% {
+      transform: translateX(3px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

@@ -1,0 +1,141 @@
+@media (max-width: 1200px) {
+    .carousel {
+        .prev, .next {
+            left: 0px;
+        }
+        .next {
+            right: 0px;
+            left: auto;
+        }
+    }
+
+}
+
+@media (max-width:991px) {
+    .promo {
+        padding: 20px 20px 40px 20px;
+    }
+    .consultation {
+        padding: 50px 20px;
+        &__subtitle {
+            margin-top: 40px;
+        }
+    }
+    .title {
+        font-size: 32px;
+    }
+    .advantages {
+        padding: 60px 20px;
+    }
+    .carousel {
+        .next, .prev {
+            display: none;
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &__content {
+            justify-content: center;
+        }
+    }
+    .feedback {
+        &__wrapper {
+            padding: 0 20px;
+            margin-top: 40px;
+        }
+        &-item {
+            margin-bottom: 40px;
+        }
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            span {
+                font-size: 14px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        .button {
+            width: 127px;
+        }
+        &__logo {
+            width: 200px;
+        }
+    }
+    .promo {
+        padding: 20px 20px 40px 20px;
+
+        &__header {
+            font-size: 30px;
+            line-height: 25px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+        &__icons {
+            width: 350px;
+        }
+    }
+    .advantages {
+        min-height: auto;
+        &__block {
+            max-width: 170px;
+        }
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__subtitle {
+            font-size: 15px;
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 11px;
+        }
+    }
+    .carousel {
+        img {
+            max-width: 100%;
+        }
+    }
+    .catalog {
+        padding-bottom: 30px;
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__tab {
+            width: 160px;
+            font-size: 16px;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+        &-item {
+            padding: 14px;
+            hr {
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            width: 260px;
+            &__subtitle {
+                margin-bottom: 10px;
+            }
+            &__list {
+                li {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+
+}
